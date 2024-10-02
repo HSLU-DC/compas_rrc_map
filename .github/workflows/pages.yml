@@ -30,8 +30,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.TOKEN }}
           publish_dir: ./build  # This is where the frozen site will be generated
           # Ensure the token has the necessary permissions
-          personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
