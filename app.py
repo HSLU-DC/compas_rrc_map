@@ -35,6 +35,8 @@ def company_info_urls():
         print(f"Generated URL: {icon_bg_url}")
         yield "/company/" + company + "/icon.png"
         yield "/company/" + company + "/icon_bg.png"
+        yield "/static/css/style.css"
+        yield "/static/js/map.js"
 
 
 
