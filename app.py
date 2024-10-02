@@ -68,4 +68,4 @@ def company_info_urls():
 
 if __name__ == '__main__':
     freezer.freeze()
-    app.run(debug=True, port=8080)
+    # app.run(debug=True, port=8080)
