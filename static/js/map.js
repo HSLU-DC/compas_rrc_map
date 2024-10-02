@@ -41,7 +41,7 @@ Object.keys(companies).forEach(function(companyName) {
         projectsInfo += `<div style="margin-left: 20px;">
                             <b>${project.name}</b><br>
                             ${project.description}<br>
-                            <a href="${project.link}">Project Link</a><br>
+                            <a href="${project.path}">Project Link</a><br>
                          </div>`;
     });
 
