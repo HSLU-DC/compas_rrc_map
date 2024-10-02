@@ -1,0 +1,14 @@
+{
+    "name": "HSLU",
+    "namenice": "HSLU Technik & Architektur",
+    "coordinates": [47.013869, 8.305879],
+    "contact": {"Samuel Ackermann": "samuel.ackermann@hslu.ch", "Timo Feddern": "timo.feddern@stud.hslu.ch"},
+    "path": "/company/hslu",
+    "icon": "/company/hslu/icon",
+    "bg": "/company/hslu/bg",
+    "description": "Quaerat consequatur dolorem libero enim. Architecto officia enim ducimus error et voluptatem. Ut molestias ab recusandae et qui at aperiam",
+    "projects": [
+        {"name": "Project 1", "description": "Description of Project 1", "path": "/companies/company1/projects/project1.html"},
+        {"name": "Project 2", "description": "Description of Project 2", "path": "/companies/company1/projects/project2.html"}
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "test",
+    "coordinates": [52.5200, 13.4050],
+    "path": "/company/test",
+    "icon": "/company/test/icon",
+    "bg": "/company/test/bg",
+    "projects": [
+        {"name": "Project 1", "description": "Description of Project 1", "path": "/companies/company1/projects/project1.html"},
+        {"name": "Project 2", "description": "Description of Project 2", "path": "/companies/company1/projects/project2.html"}
+    ]
+}

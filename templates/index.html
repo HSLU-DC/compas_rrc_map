@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- <h1>Organizations and Conflicts in Europe</h1> -->
+    <div id="map", class="map"></div>
+    
+    <script>
+        var companies = {{ companies | tojson }};
+        // Initialize the map and plot company markers with data from companies array
+    </script>
+</body>
+<script src="{{ url_for('static', filename='js/map.js') }}"></script>
+</html>
