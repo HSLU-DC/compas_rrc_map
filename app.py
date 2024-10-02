@@ -79,9 +79,9 @@ def company_icon_bg(name):
 
 if __name__ == '__main__':
     # Run the URL generator
-    app.config['FREEZER_STATIC_IGNORE'] = ['*.png']  # Ignore static files like PNGs
-    app.config['FREEZER_RELATIVE_URLS'] = True
-    app.config['FREEZER_DESTINATION'] = 'build'
+    # app.config['FREEZER_STATIC_IGNORE'] = ['*.png']  # Ignore static files like PNGs
+    # app.config['FREEZER_RELATIVE_URLS'] = True
+    # app.config['FREEZER_DESTINATION'] = 'build'
     freezer.freeze()
     # app.run(debug=True, port=8080)
     # app.run(debug=True, port=8080)
