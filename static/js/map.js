@@ -1,7 +1,7 @@
 var map = L.map('map').setView([46.505, 8.09], 4);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    attribution: '<a href="https://hslu.ch">Created by Timo Feddern @ HSLU Digital Construction</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
 Object.keys(companies).forEach(function(companyName) {
