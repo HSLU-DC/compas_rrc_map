@@ -20,11 +20,12 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 Object.keys(companies).forEach(function(companyName) {
     var company = companies[companyName];
     var customIcon = L.icon({
-        iconUrl: company.icon,
+        iconUrl: "https://hslu-dc.github.io/compas_rrc_map/company/" + company.name + "/icon.png",
         iconSize: [40, 40],
         iconAnchor: [20, 40],
         popupAnchor: [-0, -40],
         shadowUrl: company.bg,
+        shadowUrl: "https://hslu-dc.github.io/compas_rrc_map/company/" + company.name + "/icon_bg.png",
         shadowSize: [40, 40],
         shadowAnchor: [1, 40]
     });
