@@ -80,10 +80,7 @@ def company_icon_bg(name):
     return "Marker not found", 404
 
 if __name__ == '__main__':
-    # Run the URL generator
-    # app.config['FREEZER_STATIC_IGNORE'] = ['*.png']  # Ignore static files like PNGs
-    # app.config['FREEZER_RELATIVE_URLS'] = True
-    # app.config['FREEZER_DESTINATION'] = 'build'
+    app.config['FREEZER_BASE_URL'] = 'https://hslu-dc.github.io/compas_rrc_map/'
     freezer.freeze()
     # app.run(debug=True, port=8080)
     # app.run(debug=True, port=8080)
