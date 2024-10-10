@@ -7,6 +7,7 @@ logging.basicConfig(level=logging.DEBUG)
 
 app = Flask(__name__)
 freezer = Freezer(app)
+
 # Load company data from config files
 def load_company_data():
     companies = {}
@@ -38,25 +39,10 @@ def company_info_urls():
         yield "/static/css/style.css"
         yield "/static/js/map.js"
 
-
-
 @app.route('/')
 def index():
     companies = load_company_data()
     return render_template('index.html', companies=companies)
-
-# @app.route('/company/<name>')
-# def company_info(name):
-#     # Ensure you're looking for .json files
-#     company_dir = os.path.join(os.path.dirname(__file__), 'templates/companies', name)
-#     config_file = os.path.join(company_dir, 'config.json')  # Expecting .json files
-    
-#     if os.path.isfile(config_file):
-#         with open(config_file) as f:
-#             company_data = json.load(f)
-#         return jsonify(company_data)
-    
-#     return "Company not found", 404
 
 @app.route('/company/<name>/icon.png')
 def company_icon(name):
@@ -82,5 +68,3 @@ def company_icon_bg(name):
 if __name__ == '__main__':
     app.config['FREEZER_BASE_URL'] = 'https://hslu-dc.github.io/compas_rrc_map/'
     freezer.freeze()
-    # app.run(debug=True, port=8080)
-    # app.run(debug=True, port=8080)

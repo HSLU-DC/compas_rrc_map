@@ -4,19 +4,6 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-// Location Popup
-// var popup = L.popup();
-
-// function onMapClick(e) {
-//     popup
-//         .setLatLng(e.latlng)
-//         .setContent(e.latlng.toString())
-//         .openOn(map);
-// }
-
-// map.on('click', onMapClick);
-
-// Adding companies with custom icons
 Object.keys(companies).forEach(function(companyName) {
     var company = companies[companyName];
     var customIcon = L.icon({
