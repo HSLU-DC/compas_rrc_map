@@ -1,9 +1,10 @@
 {
     "name": "test",
+    "namenice": "Test Company",
     "coordinates": [52.5200, 13.4050],
+    "contact": {"Max Mustermann": "mm@test.com"},
     "path": "https://test/company/test",
-    "icon": "https://hslu-dc.github.io/compas_rrc_map/company/test/icon.png",
-    "bg": "https://hslu-dc.github.io/compas_rrc_map/company/test/icon_bg.png",
+    "description": "Quaerat consequatur dolorem libero enim. Architecto officia enim ducimus error et voluptatem. Ut molestias ab recusandae et qui at aperiam",
     "projects": [
         {"name": "Project 1", "description": "Description of Project 1", "path": "https://test/companies/company1/projects/project1.html"},
         {"name": "Project 2", "description": "Description of Project 2", "path": "https://test/companies/company1/projects/project2.html"}
