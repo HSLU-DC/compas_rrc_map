@@ -4,8 +4,8 @@
     "coordinates": [47.013869, 8.305879],
     "contact": {"Samuel Ackermann": "samuel.ackermann@hslu.ch", "Timo Feddern": "timo.feddern@stud.hslu.ch"},
     "path": "https://test/company/hslu",
-    "icon": "/company/hslu/icon.png",
-    "bg": "/company/hslu/bg.png",
+    "icon": "https://hslu-dc.github.io/compas_rrc_map/company/hslu/icon.png",
+    "bg": "https://hslu-dc.github.io/compas_rrc_map/company/hslu/bg.png",
     "description": "Quaerat consequatur dolorem libero enim. Architecto officia enim ducimus error et voluptatem. Ut molestias ab recusandae et qui at aperiam",
     "projects": [
         {"name": "Project 1", "description": "Description of Project 1", "path": "https://test/companies/company1/projects/project1.html"},
